@@ -1,0 +1,80 @@
+/*
+|========================================
+|	GLOBAL
+|========================================
+*/
+html {
+	background: rgb(198,103,199);
+	background: radial-gradient(circle, rgba(198,103,199,1) 0%, rgba(145,32,122,1) 70%);
+}
+
+body {
+	font-family: 'Space Grotesk', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	width: 100vw;
+}
+
+h1 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 80px;
+	margin: 121px 0 40px 0;
+}
+
+img {
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+}
+
+p {
+	z-index: 2;
+}
+
+/*
+|========================================
+|	Content + Card
+|========================================
+*/
+.content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.content h1 .white {
+	color: #fff;
+}
+
+.container {
+	width: 400px;
+	height: 600px;
+	border-radius: 10%;
+	border: 2px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	background: rgb(201,142,13);
+	background: linear-gradient(0deg, rgba(201,142,13,1) 0%, rgba(255,222,0,1) 68%);
+	-webkit-box-shadow: -2px 13px 5px -3px rgba(0,0,0,0.38);
+	-moz-box-shadow: -2px 13px 5px -3px rgba(0,0,0,0.38);
+	box-shadow: -2px 13px 5px -3px rgba(0,0,0,0.38);
+}
+
+.container p {
+	font-weight: 700;
+	font-size: 80px;
+	color: #fff;
+}
+
+/*
+|========================================
+|	Footer
+|========================================
+*/
+.footer p {
+	padding: 13px;
+	text-align: right;
+}
